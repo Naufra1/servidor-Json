@@ -1,0 +1,22 @@
+{
+  "hospedes": [{
+      "id": 1,
+      "hospede1": "Gustavo.",
+      "hospede2": "Rodrigo.",
+      "hospede3": "Raphael.",
+      "hospede4": "Marcelo"
+    
+  }],
+  "quartos": [{
+    "id": 2,
+    "quarto1": "O quarto está ocupado, no momento.",
+    "quarto2": "O quarto está ocupado, no momento",
+    "quarto3": "O quarto está vazio, no momento."
+  }],
+  "Reparo": [{
+    "id": 3,
+    "reparo1": "O quarto precisa de reparos.",
+    "reparo2": "O quarto não precisa de reparos.",
+    "reparo3": "O quarto está sendo reparado."
+  }]
+}
