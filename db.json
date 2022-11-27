@@ -1,5 +1,5 @@
 {
-  "hospedes": [{
+  "hospede": [{
       "id": 1,
       "hospede1": "Gustavo.",
       "hospede2": "Rodrigo.",
@@ -7,7 +7,7 @@
       "hospede4": "Marcelo"
     
   }],
-  "quartos": [{
+  "quarto": [{
     "id": 2,
     "quarto1": "O quarto está ocupado, no momento.",
     "quarto2": "O quarto está ocupado, no momento",
