@@ -1,22 +1,81 @@
 {
-  "hospede": [{
+  "hospedes": [
+    {
       "id": 1,
-      "hospede1": "Gustavo.",
-      "hospede2": "Rodrigo.",
-      "hospede3": "Raphael.",
-      "hospede4": "Marcelo"
-    
-  }],
-  "quarto": [{
-    "id": 2,
-    "quarto1": "O quarto está ocupado, no momento.",
-    "quarto2": "O quarto está ocupado, no momento",
-    "quarto3": "O quarto está vazio, no momento."
-  }],
-  "Reparo": [{
-    "id": 3,
-    "reparo1": "O quarto precisa de reparos.",
-    "reparo2": "O quarto não precisa de reparos.",
-    "reparo3": "O quarto está sendo reparado."
-  }]
+      "nome": "Davi Goncalves Santos e Mateus Rocha Dias e Mateus Fernandes Melo",
+      "quarto": 301,
+      "tempo de estadia": "1 dias"
+    },
+    {
+      "id": 2,
+      "nome": "Bianca Barbosa Rocha e Kaua Cunha Alves",
+      "quarto": 203,
+      "tempo de estadia": "30 dias"
+    },
+    {
+      "id": 3,
+      "nome": "Luiz Pinto Castro",
+      "quarto": 205,
+      "tempo de estadia": "90 dias"
+    },
+    {
+      "id": 4,
+      "nome": "Júlia Araujo Dias e Danilo Correia Barros",
+      "quarto": 101,
+      "tempo de estadia": "34 dias"
+    }
+  ],
+  "quartos": [
+    {
+      "id": 5,
+      "número": 101,
+      "necessário reparo": "sim",
+      "camas": 2
+    },
+    {
+      "id": 6,
+      "número": 205,
+      "necessário reparo": "não",
+      "camas": 1
+      
+    },
+    {
+      "id": 7,
+      "número": 203,
+      "necessário reparo": "sim",
+      "camas": 2
+    },
+    {
+      "id": 8,
+      "número": 301,
+      "necessário reparo": "não",
+      "camas": 3
+    }
+  ],
+  "Reparos":[
+    {
+      "id": 9,
+      "reparador": "Julia Barros Alves",
+      "local do reparo": "quarto 101",
+      "preço":"R$ 200.00"
+    },
+    {
+      "id": 10,
+      "reparador":"Miguel Cavalcanti Carvalho",
+      "local do reparo": "quarto 103",
+      "preço":"R$ 300.00"
+    },
+    {
+      "id": 11,
+      "reparador":"Marina Barbosa Dias",
+      "local do reparo": "quarto 203",
+      "preço":"R$ 160.00"
+    },
+    {
+      "id": 12,
+      "reparador":"Sarah Rocha Pereira",
+      "local do reparo": "quarto 304",
+      "preço":"R$ 120.00"
+    }
+  ]
 }
